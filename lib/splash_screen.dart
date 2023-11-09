@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
                 height: MediaQuery.sizeOf(context).height * 0.60,
                 width: MediaQuery.sizeOf(context).width,
                 decoration: BoxDecoration(
-                   color: Color(0xFF252c4a),
+                  color: Color(0xFF252c4a),
                   borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(45),
                         bottomRight: Radius.circular(45)),

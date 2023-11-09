@@ -1,6 +1,7 @@
 class QuestionModel{
-  String? question;
-  Map<String,bool>? answer;
+  String question;
+  List<String> answer;
+  int correctAnswerIndex;
 
-  QuestionModel(this.question,this.answer);
+  QuestionModel(this.question,this.answer, this.correctAnswerIndex);
 }
